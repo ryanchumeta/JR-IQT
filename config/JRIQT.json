@@ -1,0 +1,27 @@
+
+{
+"logfile":"C:/Users/ryanchu/Documents/projects/zaberStage/logfile.txt",
+"Positions":{
+                "Home":[0,0,0],
+                "Center":[50,25,25],
+                "Hypernova_Center":[50,25,25]
+            },
+"Pupil_locations":{
+                "pupil_1":[4.5,4.5,0],
+                    "pupil_2":[0,4.5,0],
+                    "pupil_3":[-4.5,4.5,0],
+                    "pupil_4":[4.5,0,0],
+                    "pupil_5":[0,0,0],
+                    "pupil_6":[-4.5,0,0],
+                    "pupil_7":[4.5,-4.5,0],
+                    "pupil_8":[0,-4.5,0],
+                    "pupil_9":[-4.5,-4.5,0]
+                },
+"KM_COMPORT":"COM5",
+"KM_Calibration_Channel":4,
+"KM_Exposure_Time":111.11,
+"Zaber_COMPORT":"COM6",
+"Images_folder":"images"
+
+
+}
