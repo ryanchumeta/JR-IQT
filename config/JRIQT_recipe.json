@@ -41,6 +41,28 @@
             "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"}
         }
     },
+    "test_recipe_white_5":
+    {
+        "Origin": "Hypernova_Center",
+        "Captures": {
+            "solid_white_pupil_5":{"image":"white.png","pupil_position":"pupil_5"}
+        }
+    },
+    "test_recipe_white":
+    {
+        "Origin": "Hypernova_Center",
+        "Captures": {
+            "solid_white_pupil_1":{"image":"white.png","pupil_position":"pupil_1"},
+            "solid_white_pupil_2":{"image":"white.png","pupil_position":"pupil_2"},
+            "solid_white_pupil_3":{"image":"white.png","pupil_position":"pupil_3"},
+            "solid_white_pupil_4":{"image":"white.png","pupil_position":"pupil_4"},
+            "solid_white_pupil_5":{"image":"white.png","pupil_position":"pupil_5"},
+            "solid_white_pupil_6":{"image":"white.png","pupil_position":"pupil_6"},
+            "solid_white_pupil_7":{"image":"white.png","pupil_position":"pupil_7"},
+            "solid_white_pupil_8":{"image":"white.png","pupil_position":"pupil_8"},
+            "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"}
+        }
+    },
     "gamma":
     {
         "Origin": "Hypernova_Center",
@@ -49,6 +71,10 @@
     "WPC":
     {
         "Origin": "Hypernova_Center",
-        "levels": {"5000":"low","2660":"low","1414":"low","750":"low","500":"high","400":"low","310":"high","195":"high","120":"high","75":"high","48":"high","30":"high"}
+        "levels": {"5000":"low","2660":"low","1414":"low","750":"low","500":"high","400":"low","310":"high","195":"high","120":"high","75":"high","48":"high","30":"high"},
+        "temp_iters" : 10,
+        "color_error" : 3,
+        "luminance_error" : 0.05,
+        "iter_lim" : 50
     }
 }

@@ -6,7 +6,7 @@ import time
 import os
 import json
 import re
-from utils.utils import run_adb_command
+from hypernova_tools.hypernova_tools.utils.hn_tools import run_adb_command
 
 class HypernovaP1():
     """Class to communicate w Hypernova devices via ABD 
@@ -57,7 +57,7 @@ class HypernovaP1():
         run_adb_command("adb shell rm -rf /data/data/com.meta.smartglass.app.displaytest/files/pictures/*")
 
     def upload_white_square_pic(self) -> None:
-        p = r'C:\Users\ryanchu\Documents\projects\zaberStage\images\white.png'
+        p = r'C:\Users\ryanchu\Documents\projects\JRIQT\images\white.png'
         run_adb_command(f'adb push {p} /data/data/com.meta.smartglass.app.displaytest/files/pictures')
 
     def resize_display(self) -> None:

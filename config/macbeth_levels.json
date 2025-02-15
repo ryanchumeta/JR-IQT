@@ -1,0 +1,202 @@
+{
+    "dark_skin": {
+        "Gray Code R": 115,
+        "Gray Code G": 82,
+        "Gray Code B": 68,
+        "Reference L*": 38.02,
+        "Reference a*": 11.8,
+        "Reference b*": 13.66
+    },
+    "light_skin": {
+        "Gray Code R": 194,
+        "Gray Code G": 150,
+        "Gray Code B": 130,
+        "Reference L*": 65.67,
+        "Reference a*": 13.67,
+        "Reference b*": 16.9
+    },
+    "blue_sky": {
+        "Gray Code R": 98,
+        "Gray Code G": 122,
+        "Gray Code B": 157,
+        "Reference L*": 50.63,
+        "Reference a*": 0.37,
+        "Reference b*": -21.6
+    },
+    "foliage": {
+        "Gray Code R": 87,
+        "Gray Code G": 108,
+        "Gray Code B": 67,
+        "Reference L*": 43,
+        "Reference a*": -15.88,
+        "Reference b*": 20.45
+    },
+    "blue_flower": {
+        "Gray Code R": 133,
+        "Gray Code G": 128,
+        "Gray Code B": 177,
+        "Reference L*": 55.68,
+        "Reference a*": 12.76,
+        "Reference b*": -25.17
+    },
+    "bluish_green": {
+        "Gray Code R": 103,
+        "Gray Code G": 189,
+        "Gray Code B": 170,
+        "Reference L*": 70.99,
+        "Reference a*": -30.64,
+        "Reference b*": 1.54
+    },
+    "orange": {
+        "Gray Code R": 214,
+        "Gray Code G": 126,
+        "Gray Code B": 44,
+        "Reference L*": 61.14,
+        "Reference a*": 28.1,
+        "Reference b*": 56.13
+    },
+    "purplish_blue": {
+        "Gray Code R": 80,
+        "Gray Code G": 91,
+        "Gray Code B": 166,
+        "Reference L*": 41.12,
+        "Reference a*": 17.41,
+        "Reference b*": -41.88
+    },
+    "moderate_red": {
+        "Gray Code R": 193,
+        "Gray Code G": 90,
+        "Gray Code B": 99,
+        "Reference L*": 51.33,
+        "Reference a*": 42.1,
+        "Reference b*": 14.88
+    },
+    "purple": {
+        "Gray Code R": 94,
+        "Gray Code G": 60,
+        "Gray Code B": 108,
+        "Reference L*": 31.1,
+        "Reference a*": 24.35,
+        "Reference b*": -22.1
+    },
+    "yellow_green": {
+        "Gray Code R": 157,
+        "Gray Code G": 188,
+        "Gray Code B": 64,
+        "Reference L*": 71.9,
+        "Reference a*": -28.1,
+        "Reference b*": 56.96
+    },
+    "orange_yellow": {
+        "Gray Code R": 224,
+        "Gray Code G": 163,
+        "Gray Code B": 46,
+        "Reference L*": 71.04,
+        "Reference a*": 12.6,
+        "Reference b*": 64.91
+    },
+    "blue": {
+        "Gray Code R": 56,
+        "Gray Code G": 61,
+        "Gray Code B": 150,
+        "Reference L*": 30.35,
+        "Reference a*": 26.43,
+        "Reference b*": -49.67
+    },
+    "green": {
+        "Gray Code R": 70,
+        "Gray Code G": 148,
+        "Gray Code B": 73,
+        "Reference L*": 55.03,
+        "Reference a*": -40.14,
+        "Reference b*": 32.3
+    },
+    "red": {
+        "Gray Code R": 175,
+        "Gray Code G": 54,
+        "Gray Code B": 60,
+        "Reference L*": 41.35,
+        "Reference a*": 49.3,
+        "Reference b*": 24.66
+    },
+    "yellow": {
+        "Gray Code R": 231,
+        "Gray Code G": 199,
+        "Gray Code B": 31,
+        "Reference L*": 80.7,
+        "Reference a*": -3.66,
+        "Reference b*": 77.55
+    },
+    "magenta": {
+        "Gray Code R": 187,
+        "Gray Code G": 86,
+        "Gray Code B": 149,
+        "Reference L*": 51.14,
+        "Reference a*": 48.15,
+        "Reference b*": -15.28
+    },
+    "cyan": {
+        "Gray Code R": 8,
+        "Gray Code G": 133,
+        "Gray Code B": 161,
+        "Reference L*": 51.15,
+        "Reference a*": -19.73,
+        "Reference b*": -23.37
+    },
+    "white_9.5": {
+        "Gray Code R": 243,
+        "Gray Code G": 243,
+        "Gray Code B": 242,
+        "Reference L*": 95.82,
+        "Reference a*": -0.18,
+        "Reference b*": 0.48
+    },
+    "neutral_8": {
+        "Gray Code R": 200,
+        "Gray Code G": 200,
+        "Gray Code B": 200,
+        "Reference L*": 80.6,
+        "Reference a*": 0,
+        "Reference b*": 0
+    },
+    "neutral_6.5": {
+        "Gray Code R": 160,
+        "Gray Code G": 160,
+        "Gray Code B": 160,
+        "Reference L*": 65.87,
+        "Reference a*": 0,
+        "Reference b*": 0
+    },
+    "neutral_5": {
+        "Gray Code R": 122,
+        "Gray Code G": 122,
+        "Gray Code B": 121,
+        "Reference L*": 51.19,
+        "Reference a*": -0.2,
+        "Reference b*": 0.55
+    },
+    "neutral_3.5": {
+        "Gray Code R": 85,
+        "Gray Code G": 85,
+        "Gray Code B": 85,
+        "Reference L*": 36.15,
+        "Reference a*": 0,
+        "Reference b*": 0
+    },
+    "black_2": {
+        "Gray Code R": 52,
+        "Gray Code G": 52,
+        "Gray Code B": 52,
+        "Reference L*": 21.7,
+        "Reference a*": 0,
+        "Reference b*": 0
+    },
+    "illuminant": {
+        "Gray Code R": 255,
+        "Gray Code G": 255,
+        "Gray Code B": 255,
+        "Reference L*": 100,
+        "Reference a*": 0,
+        "Reference b*": 0
+    }
+}

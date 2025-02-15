@@ -60,11 +60,11 @@ class Zaber():
 
 	def move_relative(self,axis,distance):
 		print(f'moving axis {axis} by {distance} mm')
-		self.axes[axis].move_relative(distance, Units.LENGTH_MILLIMETRES)
+		self.axes[axis].move_relative(distance, Units.LENGTH_MILLIMETRES, velocity = 4, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
 
 	def move_absolute(self,axis,position,waitIdle=True):
 		try:
-			self.axes[axis].move_absolute(position, Units.LENGTH_MILLIMETRES,wait_until_idle=waitIdle)
+			self.axes[axis].move_absolute(position, Units.LENGTH_MILLIMETRES,wait_until_idle=waitIdle, velocity = 4, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
 		except Exception as error:
 			print(error)
 
@@ -75,9 +75,9 @@ class Zaber():
 	def home_all(self):
 		self.stageConnection.home_all()
 	def move_absolute_async(self,x,y,z):
-		self.axes[0].move_absolute(x, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 4, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
-		self.axes[1].move_absolute(y, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 4, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
-		self.axes[2].move_absolute(z, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 4, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
+		self.axes[0].move_absolute(x, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 2, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
+		self.axes[1].move_absolute(y, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 2, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
+		self.axes[2].move_absolute(z, Units.LENGTH_MILLIMETRES, wait_until_idle=False, velocity = 2, velocity_unit = Units.VELOCITY_MILLIMETRES_PER_SECOND)
 		self.axes[0].wait_until_idle()
 		self.axes[1].wait_until_idle()
 		self.axes[2].wait_until_idle()
