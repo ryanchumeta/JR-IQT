@@ -1,0 +1,3 @@
+[submodule "hypernova_tools"]
+	path = hypernova_tools
+	url = https://github.com/natorlovameta/hypernova_tools.git
