@@ -3,3 +3,5 @@ ipynb_checkpoints/
 __pycache__/
 Output/
 hypernova_tools/
+.ipynb_checkpoints/
+.vscode/

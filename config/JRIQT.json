@@ -4,7 +4,8 @@
 "Positions":{
                 "Home":[0,0,0],
                 "Center":[50,25,25],
-                "Hypernova_Center":[30.16,27.64,37.79]
+                "Hypernova_Center":[30.16,27.64,37.79],
+                "Hypernova_Center_Relay_Optic":[30.16,27.64,36.79] 
             },
 "Pupil_locations":{
                 "pupil_1":[4.5,4.5,0],
@@ -18,7 +19,7 @@
                     "pupil_9":[-4.5,-4.5,0]
                 },
 "KM_COMPORT":"COM5",
-"KM_Calibration_Channel":4,
+"KM_Calibration_Channel":6,
 "KM_Exposure_Time":111.11,
 "Zaber_COMPORT":"COM6",
 "Images_folder":"images",

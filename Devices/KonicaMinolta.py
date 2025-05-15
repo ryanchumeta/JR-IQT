@@ -183,4 +183,4 @@ class KonicaMinolta():
     def disconnect(self):
         """Close connection to KM
         """
-        self.ser.write(("COM,1" + self.delimiter).encode())
+        self.ser.write(("COM,0" + self.delimiter).encode())

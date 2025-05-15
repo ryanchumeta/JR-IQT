@@ -63,6 +63,80 @@
             "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"}
         }
     },
+    "test_recipe_sweep2":
+    {
+        "Origin": "Hypernova_Center",
+        "Captures": {
+            "solid_white_pupil_1":{"image":"white.png","pupil_position":"pupil_1"},
+            "solid_white_pupil_2":{"image":"white.png","pupil_position":"pupil_2"},
+            "solid_white_pupil_3":{"image":"white.png","pupil_position":"pupil_3"},
+            "solid_white_pupil_4":{"image":"white.png","pupil_position":"pupil_4"},
+            "solid_white_pupil_5":{"image":"white.png","pupil_position":"pupil_5"},
+            "solid_white_pupil_6":{"image":"white.png","pupil_position":"pupil_6"},
+            "solid_white_pupil_7":{"image":"white.png","pupil_position":"pupil_7"},
+            "solid_white_pupil_8":{"image":"white.png","pupil_position":"pupil_8"},
+            "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"}
+        }
+    },
+    "test_recipe_sweep2_relay_optic":
+    {
+        "Origin": "Hypernova_Center_Relay_Optic",
+        "Captures": {
+            "solid_white_pupil_1":{"image":"white.png","pupil_position":"pupil_1"},
+            "solid_white_pupil_2":{"image":"white.png","pupil_position":"pupil_2"},
+            "solid_white_pupil_3":{"image":"white.png","pupil_position":"pupil_3"},
+            "solid_white_pupil_4":{"image":"white.png","pupil_position":"pupil_4"},
+            "solid_white_pupil_5":{"image":"white.png","pupil_position":"pupil_5"},
+            "solid_white_pupil_6":{"image":"white.png","pupil_position":"pupil_6"},
+            "solid_white_pupil_7":{"image":"white.png","pupil_position":"pupil_7"},
+            "solid_white_pupil_8":{"image":"white.png","pupil_position":"pupil_8"},
+            "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"}
+        }
+    },
+    
+    "test_recipe_RGBW":
+    {
+        "Origin": "Hypernova_Center",
+        "Captures": {
+            "solid_white_pupil_1":{"image":"white.png","pupil_position":"pupil_1"},
+            "solid_red_pupil_1":{"image":"red.png","pupil_position":"pupil_1"},
+            "solid_green_pupil_1":{"image":"green.png","pupil_position":"pupil_1"},
+            "solid_blue_pupil_1":{"image":"blue.png","pupil_position":"pupil_1"},
+            "solid_white_pupil_2":{"image":"white.png","pupil_position":"pupil_2"},
+            "solid_red_pupil_2":{"image":"red.png","pupil_position":"pupil_2"},
+            "solid_green_pupil_2":{"image":"green.png","pupil_position":"pupil_2"},
+            "solid_blue_pupil_2":{"image":"blue.png","pupil_position":"pupil_2"},
+            "solid_white_pupil_3":{"image":"white.png","pupil_position":"pupil_3"},
+            "solid_red_pupil_3":{"image":"red.png","pupil_position":"pupil_3"},
+            "solid_green_pupil_3":{"image":"green.png","pupil_position":"pupil_3"},
+            "solid_blue_pupil_3":{"image":"blue.png","pupil_position":"pupil_3"},
+            "solid_white_pupil_4":{"image":"white.png","pupil_position":"pupil_4"},
+            "solid_red_pupil_4":{"image":"red.png","pupil_position":"pupil_4"},
+            "solid_green_pupil_4":{"image":"green.png","pupil_position":"pupil_4"},
+            "solid_blue_pupil_4":{"image":"blue.png","pupil_position":"pupil_4"},
+            "solid_white_pupil_5":{"image":"white.png","pupil_position":"pupil_5"},
+            "solid_red_pupil_5":{"image":"red.png","pupil_position":"pupil_5"},
+            "solid_green_pupil_5":{"image":"green.png","pupil_position":"pupil_5"},
+            "solid_blue_pupil_5":{"image":"blue.png","pupil_position":"pupil_5"},
+            "solid_white_pupil_6":{"image":"white.png","pupil_position":"pupil_6"},
+            "solid_red_pupil_6":{"image":"red.png","pupil_position":"pupil_6"},
+            "solid_green_pupil_6":{"image":"green.png","pupil_position":"pupil_6"},
+            "solid_blue_pupil_6":{"image":"blue.png","pupil_position":"pupil_6"},
+            "solid_white_pupil_7":{"image":"white.png","pupil_position":"pupil_7"},
+            "solid_red_pupil_7":{"image":"red.png","pupil_position":"pupil_7"},
+            "solid_green_pupil_7":{"image":"green.png","pupil_position":"pupil_7"},
+            "solid_blue_pupil_7":{"image":"blue.png","pupil_position":"pupil_7"},
+            "solid_white_pupil_8":{"image":"white.png","pupil_position":"pupil_8"},
+            "solid_red_pupil_8":{"image":"red.png","pupil_position":"pupil_8"},
+            "solid_green_pupil_8":{"image":"green.png","pupil_position":"pupil_8"},
+            "solid_blue_pupil_8":{"image":"blue.png","pupil_position":"pupil_8"},
+            "solid_white_pupil_9":{"image":"white.png","pupil_position":"pupil_9"},
+            "solid_red_pupil_9":{"image":"red.png","pupil_position":"pupil_9"},
+            "solid_green_pupil_9":{"image":"green.png","pupil_position":"pupil_9"},
+            "solid_blue_pupil_9":{"image":"blue.png","pupil_position":"pupil_9"}
+            
+        }
+    },
     "gamma":
     {
         "Origin": "Hypernova_Center",
